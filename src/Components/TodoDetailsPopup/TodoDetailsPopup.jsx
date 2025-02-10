@@ -1,9 +1,8 @@
-// src/Components/TodoDetailsPopup/TodoDetailsPopup.jsx
 import React from 'react';
-import './TodoDetailsPopup.css';  // Ensure correct CSS import
+import './TodoDetailsPopup.css';
 
 const TodoDetailsPopup = ({ todo, onClose }) => {
-  if (!todo) return null;  // If no todo is provided, don't render anything
+  if (!todo) return null; 
 
   return (
     <div className="popup">
